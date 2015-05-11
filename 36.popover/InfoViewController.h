@@ -1,5 +1,5 @@
 //
-//  ViewController.h
+//  InfoViewController.h
 //  36.popover
 //
 //  Created by MC723 on 20.04.15.
@@ -8,8 +8,6 @@
 
 #import <UIKit/UIKit.h>
 
-@interface ViewController : UIViewController
-
+@interface InfoViewController : UIViewController
 
 @end
-

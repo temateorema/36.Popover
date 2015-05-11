@@ -9,11 +9,14 @@
 /* Begin PBXBuildFile section */
 		44CA533F1AE59C5C00E17371 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA533E1AE59C5C00E17371 /* main.m */; };
 		44CA53421AE59C5C00E17371 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA53411AE59C5C00E17371 /* AppDelegate.m */; };
-		44CA53451AE59C5C00E17371 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA53441AE59C5C00E17371 /* ViewController.m */; };
 		44CA53481AE59C5C00E17371 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 44CA53461AE59C5C00E17371 /* Main.storyboard */; };
 		44CA534A1AE59C5C00E17371 /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 44CA53491AE59C5C00E17371 /* Images.xcassets */; };
 		44CA534D1AE59C5C00E17371 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 44CA534B1AE59C5C00E17371 /* LaunchScreen.xib */; };
 		44CA53591AE59C5C00E17371 /* _6_popoverTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA53581AE59C5C00E17371 /* _6_popoverTests.m */; };
+		44CA53671AE59DD500E17371 /* InfoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CA53661AE59DD500E17371 /* InfoViewController.m */; };
+		44CD87921AFE268400EA620B /* AGDateViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CD87911AFE268400EA620B /* AGDateViewController.m */; };
+		44CEF7FA1AE98D6F00EFDD9E /* TableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44CEF7F91AE98D6F00EFDD9E /* TableViewController.m */; };
+		44D89B231B00CF0400EA1310 /* AGEducationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44D89B221B00CF0400EA1310 /* AGEducationViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -32,14 +35,20 @@
 		44CA533E1AE59C5C00E17371 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		44CA53401AE59C5C00E17371 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		44CA53411AE59C5C00E17371 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		44CA53431AE59C5C00E17371 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		44CA53441AE59C5C00E17371 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		44CA53471AE59C5C00E17371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		44CA53491AE59C5C00E17371 /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
 		44CA534C1AE59C5C00E17371 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
 		44CA53521AE59C5C00E17371 /* 36.popoverTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = 36.popoverTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		44CA53571AE59C5C00E17371 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		44CA53581AE59C5C00E17371 /* _6_popoverTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = _6_popoverTests.m; sourceTree = "<group>"; };
+		44CA53651AE59DD500E17371 /* InfoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = InfoViewController.h; sourceTree = "<group>"; };
+		44CA53661AE59DD500E17371 /* InfoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = InfoViewController.m; sourceTree = "<group>"; };
+		44CD87901AFE268400EA620B /* AGDateViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGDateViewController.h; sourceTree = "<group>"; };
+		44CD87911AFE268400EA620B /* AGDateViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGDateViewController.m; sourceTree = "<group>"; };
+		44CEF7F81AE98D6F00EFDD9E /* TableViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TableViewController.h; sourceTree = "<group>"; };
+		44CEF7F91AE98D6F00EFDD9E /* TableViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TableViewController.m; sourceTree = "<group>"; };
+		44D89B211B00CF0400EA1310 /* AGEducationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = AGEducationViewController.h; sourceTree = "<group>"; };
+		44D89B221B00CF0400EA1310 /* AGEducationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = AGEducationViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -83,8 +92,14 @@
 			children = (
 				44CA53401AE59C5C00E17371 /* AppDelegate.h */,
 				44CA53411AE59C5C00E17371 /* AppDelegate.m */,
-				44CA53431AE59C5C00E17371 /* ViewController.h */,
-				44CA53441AE59C5C00E17371 /* ViewController.m */,
+				44CEF7F81AE98D6F00EFDD9E /* TableViewController.h */,
+				44CEF7F91AE98D6F00EFDD9E /* TableViewController.m */,
+				44CA53651AE59DD500E17371 /* InfoViewController.h */,
+				44CA53661AE59DD500E17371 /* InfoViewController.m */,
+				44D89B211B00CF0400EA1310 /* AGEducationViewController.h */,
+				44D89B221B00CF0400EA1310 /* AGEducationViewController.m */,
+				44CD87901AFE268400EA620B /* AGDateViewController.h */,
+				44CD87911AFE268400EA620B /* AGDateViewController.m */,
 				44CA53461AE59C5C00E17371 /* Main.storyboard */,
 				44CA53491AE59C5C00E17371 /* Images.xcassets */,
 				44CA534B1AE59C5C00E17371 /* LaunchScreen.xib */,
@@ -219,9 +234,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				44CA53451AE59C5C00E17371 /* ViewController.m in Sources */,
 				44CA53421AE59C5C00E17371 /* AppDelegate.m in Sources */,
+				44CD87921AFE268400EA620B /* AGDateViewController.m in Sources */,
+				44CA53671AE59DD500E17371 /* InfoViewController.m in Sources */,
 				44CA533F1AE59C5C00E17371 /* main.m in Sources */,
+				44CEF7FA1AE98D6F00EFDD9E /* TableViewController.m in Sources */,
+				44D89B231B00CF0400EA1310 /* AGEducationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -350,6 +368,7 @@
 				INFOPLIST_FILE = 36.popover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -360,6 +379,7 @@
 				INFOPLIST_FILE = 36.popover/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Release;
 		};
@@ -416,6 +436,7 @@
 				44CA535E1AE59C5C00E17371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		44CA535F1AE59C5C00E17371 /* Build configuration list for PBXNativeTarget "36.popoverTests" */ = {
 			isa = XCConfigurationList;
@@ -424,6 +445,7 @@
 				44CA53611AE59C5C00E17371 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
